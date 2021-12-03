@@ -1,0 +1,3 @@
+C:/Users/Administrator/Desktop/lua_study_cmake/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/lua_study_cmake/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Administrator/Desktop/lua_study_cmake/build/sample/CMakeFiles/sample.dir
