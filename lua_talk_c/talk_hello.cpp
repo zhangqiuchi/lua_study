@@ -18,7 +18,7 @@ int main(void)
 
     //载入PrintHello.lua
     luaL_loadfile(L, "../../lua_talk_c/PrintHello.lua");
-        //
+    //
     lua_pcall(L, 0, 0, 0);
 
     //函数压栈

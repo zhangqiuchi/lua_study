@@ -18,13 +18,13 @@ static int addc(lua_State* L)
     //压入结果
     lua_pushnumber(L, c);
     std::cout << "get top in addc, affter push result:" << lua_gettop(L) << std::endl;
-    return 1;
+    return 1;//表示有几个返回值
 }
 
 static int HelloWorld(lua_State* L)
 {
     std::cout << "HelloWorld" << std::endl;
-    return 1;
+    return 0;//表示有几个返回值
 }
 
 static const struct luaL_Reg lib[] = {
