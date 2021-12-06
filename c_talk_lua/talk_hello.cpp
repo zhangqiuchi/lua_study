@@ -6,7 +6,7 @@ extern "C" {
 #include <lualib.h>
 }
 
-static int printHello(lua_State* L)
+int printHello(lua_State* L)
 {
 
     //取出栈中的参数
@@ -32,6 +32,6 @@ static const struct luaL_Reg lib[] =
 
 int luaopen_testlib(lua_State *L)
 {
-    luaL_register(L,"test_hello",lib);
+    luaL_register(L,"testlib",lib);
     return 1;
 }

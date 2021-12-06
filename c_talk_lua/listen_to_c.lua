@@ -1,7 +1,7 @@
 
-require "test_hello"
+require "testlib"
 
-a,b = test_hello.printHello("zhangqiuchi")
+a,b = testlib.printHello("zhangqiuchi")
 
 print(a)
 print(b)

@@ -1,9 +1,10 @@
-add_library(c_talk_lua SHARED)
-#add_executable(c_talk_lua)
+#add_library(c_talk_lua SHARED)
+
+add_executable(c_talk_lua)
 target_sources(c_talk_lua
 PUBLIC
     talk_hello.cpp
-    #VMLJ.cpp
+    VMLJ.cpp
 )
 
 target_include_directories(c_talk_lua
